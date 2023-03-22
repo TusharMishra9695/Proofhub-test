@@ -16,7 +16,7 @@ export default function Q1Solution() {
       b = c;
       c = a + b;
     }
-    prompt(showSeries);
+    prompt(showSeries, "series");
     showSeries = [];
   }
 
